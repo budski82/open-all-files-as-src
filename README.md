@@ -1,0 +1,1 @@
+# open-all-files-as-src
