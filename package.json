@@ -5,7 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    
+  "start": "concurrently npm:watch:*",
+  "watch:sync": "browser-sync start --server --no-notify --files \"**/*.html\", \"**/*.js\", \"**/*.css\", \"public/**/*/*.*\"",
+  "watch:sass": "sass --watch src/scss/main.scss:public/css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
