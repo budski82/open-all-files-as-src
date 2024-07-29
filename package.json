@@ -5,13 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-<<<<<<< Updated upstream
     "start": "concurrently npm:watch:*",
     "sync": "browser-sync start --server --no-notify --files \"**/*.html\", \"**/*.js\", \"**/*.css\", \"public/**/*/*.*\"",
     "watch:sass": "sass --watch src/scss/main.scss:public/css/main.css",
-=======
-    
->>>>>>> Stashed changes
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
